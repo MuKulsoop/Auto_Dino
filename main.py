@@ -14,12 +14,12 @@ def isCollide(data):
                 hit("up")
                 return
     
-    # Draw the rectangle for the birds
-    for i in range( 250, 420):
-        for j in range( 530, 595):
-            if data[i,j]>200:
-                hit("down")
-                return
+    # # Draw the rectangle for the birds
+    # for i in range( 250, 420):
+    #     for j in range( 530, 595):
+    #         if data[i,j]>200:
+    #             hit("down")
+    #             return
 
 
 if __name__=="__main__":
